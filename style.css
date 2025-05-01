@@ -187,3 +187,139 @@ background-color: #ffe5da;
     color:#969696;
     font-size: 18px;
 }
+
+.happy-img{
+    background-color: #08d3bb;
+    width:58px;
+    height: 58px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center; 
+}
+
+.vec{
+    width:26px;
+    height: 26px;
+    align-self: center;
+}
+.row-div{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-bottom: 50px;
+}
+.dummy{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.lorem-head{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 170%;
+    font-family: 'Poppins';
+    height:91px;
+}
+
+.grid-column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iphone-mockup{
+    width:700px;
+    height:511px;
+}
+.hero-dummy{
+    color:#545454;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    
+    width:1194px;
+    height: 459px;
+    margin-top:100px;
+
+}
+.first-test{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:#f4f4f4;
+    color:black;
+    width:350px;
+    height:300px;
+    padding:30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.second-test{
+    background: linear-gradient(to bottom right, #267bf7 , #60c4f6);
+    color:white;
+    display:flex;
+    padding:30px;
+    width:350px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow:  0 10px 20px rgba(0, 0 , 0 , 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+
+}
+.bell-icon{
+    width:80px;
+    position: absolute;
+    top:-40px;
+    right:-30px;
+}
+.description{
+    font-size:12px;
+    line-height: 180%;
+    margin-bottom: 30px;;
+}
+
+.view-more{
+    background-color: white;
+    color:#267bf7;
+    width:153px;
+    height:49px;
+    border: none;
+    padding:10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.news{
+    background-color: #267bf7;
+    color:white;
+
+}
+.middle{
+    width:365px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-head{
+    font-size: 25px;
+    line-height: 170%;
+    font-weight: 600;
+    color:#ffffff;
+}
+.white{
+    color:white
+
+}
