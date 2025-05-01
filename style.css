@@ -1,6 +1,7 @@
 .container{
     width:90%;
     max-width:1200px;
+    background-color: white;
     margin:0 auto;
     font-family: 'Poppins', sans-serif;
 }
@@ -321,5 +322,61 @@ background-color: #ffe5da;
 }
 .white{
     color:white
+}
+
+.logo-company{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:1085px;
+    height:185px;
+    align-items: center;
+}
+.logo-dsgn{
+    width:185px;
+    height:185px;
+}
+.company{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+.com-para{
+    font-size: 24px;
+    line-height: 159%;
+    color:#000000;
+    font-weight: 500;
+}
+.subscribe{
+    display:flex;
+    flex-direction: column;
+    background-color: #e8f4fa;
+    justify-content: center;
+    text-align: center;
+    padding:80px 80px;
+}
+.inputs{
+    width:532px;
+    height: 67px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding:20px;
+    box-shadow: inset;
+}
+.sub-contain{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:15px;
+    margin-top:60px;
+}
+.sub-button{
+    background-color: #000000;
+    color:#fff4f4;
+    width:173px;
+    height:67px;
+    border-radius: 10px;
+    border: none;
 
 }
