@@ -437,6 +437,9 @@ background-color: #ffe5da;
     max-width:1200px;
     margin: 0 auto;
 }
+.h5-center{
+    text-align: center;
+}
 
 /* media queries */
 
