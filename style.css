@@ -25,10 +25,12 @@ header{
 .nav ul {
     display: flex;
     list-style: none;
-    padding:0;
-    gap:35px;
+    
     align-items: center;
 }
+ .nav li{
+    margin:1rem;
+ }
 .nav a {
     text-decoration: none;
     color:#333;
@@ -142,8 +144,7 @@ header{
     justify-content: center;
     display: flex;
     width:70px;
-    height:70px;
-    
+    height:70px;   
 }
 .vec-img{
     width: 35px;
@@ -447,6 +448,8 @@ background-color: #ffe5da;
 /* media queries */
 
 @media (max-width:768px){
+
+
     .hero{
         flex-direction: column;
     }
@@ -479,9 +482,15 @@ background-color: #ffe5da;
 .company{
     display:none;   
 }
-li{
-    display: none;
+.header{
+    
+    flex-direction: column;
 }
+
+.nav ul{
+    flex-direction: column;
+}
+
 .footer-row{
     flex-direction: column;
 }
@@ -491,7 +500,6 @@ li{
     flex-direction: column;
     background-color: #e8f4fa;
     text-align: center;
-    width:600px;
     
 }
 .sub-contain{
@@ -543,8 +551,13 @@ li{
 .company{
     display:none;   
 }
-li{
-    display: none;
+.header{
+    
+    flex-direction: column;
+}
+
+.nav ul{
+    flex-direction: column;
 }
 .footer-row{
     flex-direction: column;
@@ -555,7 +568,7 @@ li{
     flex-direction: column;
     background-color: #e8f4fa;
     text-align: center;
-    width:600px;
+    
     
 }
 .sub-contain{
